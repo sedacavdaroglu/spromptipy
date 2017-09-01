@@ -1,5 +1,5 @@
 # Spromptipy
-This is a small web app that takes in a singer/band's name and phone number and send the most popular song of that singer/band in an sms message. 
+This is a small web app that takes in a singer/band's name and phone number and sends the most popular song of that singer/band in an sms message. 
 
 ## My thoughts on the exercise:
 	1) Overall I really enjoyed it. Given that the example is in Ruby, it probably could have been implemented a little faster in Ruby. But it was not so complicated in Python either. 

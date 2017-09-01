@@ -1,0 +1,33 @@
+<!-- howdy/templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color: DarkRed;}
+h1 {font: 30px Comic Sans MS, cursive;
+    fontStyle: italic;}
+h2 {font: 30px Comic Sans MS, cursive;}
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+</style>
+</head>
+<body bgcolor="DarkRed">
+<h1 align="center">Type the name of the artist/band</h1>
+<form method="POST" action="/search/">
+{% csrf_token %}
+<center>
+<input type="search" name="artistName" placeholder="Type the name of the artist">
+<h2 align="center">Type your mobile number in this format: +1234567890</h2>
+<input type="text" name="phoneNo" placeHolder="">
+<button align="center" type="submit" name="goBtn" style="float:center">Go!</button>
+</center>
+</form>
+<p style="text-align:center">
+<img src="https://musicologuesdotcom.files.wordpress.com/2011/11/fado-crop.jpg" width=300 height=300/> 
+</p>
+</body>
+</html>
+
+

@@ -1,0 +1,14 @@
+conda==4.3.16
+Django==1.11.4
+gunicorn==19.7.1
+heroku==0.1.4
+jsonschema==2.5.1
+redis==2.10.5
+requests==2.12.4
+rope==0.9.4
+scandir==1.4
+simplejson==3.10.0
+spotipy==2.4.4
+SQLAlchemy==1.1.5
+twilio==6.5.2
+Werkzeug==0.11.15

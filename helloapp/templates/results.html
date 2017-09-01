@@ -1,0 +1,24 @@
+<html>
+<style>
+body {background-color: DarkRed;}
+h1 {font: 30px Comic Sans MS, cursive;
+    fontStyle: italic;}
+h2 {font: 30px Comic Sans MS, cursive;}
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+</style>
+<center>
+<body bgcolor="DarkRed">
+<div><h1 align="center"> SMS has been sent successfully!</h1> </div>
+<div> If you cannot find your phone {{ track_name }} is the most popular song from {{ artistName }} </div>
+<div> Here is a preview </div>
+<iframe src={{ track_url }} width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+<form method="POST" action="/back/">
+{% csrf_token %}
+<button align="center" type="submit" name="backBtn" style="float:center">Back</butto$
+</form>
+</center>
+</html>
+</body>

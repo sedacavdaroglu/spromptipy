@@ -1,5 +1,5 @@
 conda==4.3.16
-Django==1.11.4
+Django==1.11.29
 gunicorn==19.7.1
 heroku==0.1.4
 jsonschema==2.5.1
